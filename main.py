@@ -55,7 +55,7 @@ def banner(console):
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   [bold][yellow]  𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
-    console.print(f"             [bold green]Telegram Channel [/bold green]: [bold cyan]@CPMAizal[/bold cyan] Telegram Chat [bold cyan]@CPMAizalChat[/bold cyan]") 
+    console.print(f"             [bold purple]Telegram Channel [/bold purple]: [bold purple]@CPMAizal[/bold purple] Telegram Chat [bold purple]@CPMAizalChat[/bold purple]") 
     console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
