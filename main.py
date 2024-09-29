@@ -66,13 +66,13 @@ def load_player_data(cpm):
             console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
             
             console.print(
-                f"[bold green] Name   [/bold green]:[bold cyan] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
+                f"[bold green] Name   [/bold green]:[bold yellow] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
                 
-            console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
+            console.print(f"[bold green] LocalID[/bold green]:[bold yellow] {data.get('localID')}[/bold cyan].")
             
-            console.print(f"[bold green] Money  [/bold green]:[bold cyan] {data.get('money')}[/bold cyan].")
+            console.print(f"[bold green] Money  [/bold green]:[bold yellow] {data.get('money')}[/bold cyan].")
             
-            console.print(f"[bold green] Coins  [/bold green]:[bold cyan] {data.get('coin')}[/bold cyan].")
+            console.print(f"[bold green] Coins  [/bold green]:[bold yellow] {data.get('coin')}[/bold cyan].")
             
         else:
             console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
@@ -88,11 +88,11 @@ def load_key_data(cpm):
     
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
-    console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
+    console.print(f"[bold green] Access Key [/bold green]:[bold yellow] {data.get('access_key')}[/bold yellow].")
     
-    console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
+    console.print(f"[bold green ] Telegram ID[/bold green]:[bold yellow] {data.get('telegram_id')}[/bold yellow].")
     
-    console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
+    console.print(f"[bold green] Balance $  [/bold green]:[bold yellow] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold yellow].")
         
     console.print("[bold][red]===============[/bold][/red][ 𝐌𝐞𝐧‌𝐮 ][bold][red]===============[/red][/bold]")
 
