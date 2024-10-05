@@ -50,11 +50,12 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
-    console.print("\t  [bold] [yellow]                   👑 𝐂𝐏𝐌 𝐀𝐈𝐙𝐀𝐋 🤴")
-    console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
+    console.print("\t  [bold] [green]                   👑 𝐂𝐏𝐌 𝐀𝐈𝐙𝐀𝐋 🤴")
+    console.print("   [bold][white]  𝐂𝐚𝐫 𝐏𝐚𝐫𝐤𝐢𝐧𝐠 𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐚𝐲𝐞𝐫 𝐓𝐨𝐨𝐥 [/bold][white]")
+    console.print(f"    [/bold blue]: @CPMAizal[/bold blue] 𝐎𝐫 [bold blue]@CPMAizalChat[/bold blue]") 
+    console.print("   [bold][red] 𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 [/bold][red]")
     console.print("   [bold][green] 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋 [/bold][green]")
     console.print("   [bold][white] 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐖𝐈𝐓𝐇 𝐌𝐄 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐍 𝐔𝐍𝐋𝐈𝐌𝐈𝐓𝐄𝐃 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 𝐓𝐆 @𝐈𝐭𝐳𝐀𝐢𝐳𝐚𝐥 [/bold][white]")
-    console.print(f"   [bold purple]𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 [/bold purple]: [bold purple]@CPMAizal[/bold purple] 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐂𝐡𝐚𝐭 [bold purple]@CPMAizalChat[/bold purple]") 
     console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
