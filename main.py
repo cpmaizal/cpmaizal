@@ -50,7 +50,7 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     console.print("[bold][cyan]==================================================================[/cyan][/bold]")
-    console.print("\t  [bold] [green]                       𝐀𝐈𝐙𝐀𝐋 𝐊𝐔𝐑𝐃𝐈𝐒𝐇")
+    console.print("\t  [bold] [green]                      𝐀𝐈𝐙𝐀𝐋 ")
     console.print("   [bold][orange]                 𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐓𝐎𝐎𝐋  [/bold][orange]")
     console.print("   [bold][red] 𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 [/bold][cyan]")
     console.print("   [bold][yellow]         𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋 [/bold][yellow]")
