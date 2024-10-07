@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python Owner @ItzAizal Wrriten By Aizal
 
 import random
 from time import sleep
