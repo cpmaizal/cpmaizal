@@ -95,7 +95,7 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
-    console.print("[bold][red]===============[/bold][/red][ 𝐌𝐞𝐧‌𝐮 ][bold][red]===============[/red][/bold]")
+    console.print("[bold][cyan]===============[/bold][/cyan][ 𝐌𝐞𝐧‌𝐮 ][bold][cyan]===============[/cyan][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -132,7 +132,7 @@ if __name__ == "__main__":
         acc_email = prompt_valid_value("[bold][?] Account Email[/bold]", "Email", password=False)
         acc_password = prompt_valid_value("[bold][?] Account Password[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] Access Key[/bold]", "Access Key", password=False)
-        console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
+        console.print("[bold yellow][%] Trying to Login[/bold yellow]: ", end=None)
         cpm = CPMtool(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
@@ -161,35 +161,35 @@ if __name__ == "__main__":
             load_player_data(cpm)
             load_key_data(cpm)
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
-            console.print("[bold green]{01}[/bold green]: [bold cyan]Change Money[/bold cyan]             [bold red]1.000[/bold red]")
-            console.print("[bold green]{02}[/bold green]: [bold cyan]Change Coins[/bold cyan]             [bold red]3.500[/bold red]")
-            console.print("[bold green]{03}[/bold green]: [bold cyan]King Rank[/bold cyan]                [bold red]4.000[/bold red]")
-            console.print("[bold green]{04}[/bold green]: [bold cyan]Change ID[/bold cyan]                [bold red]3.500[/bold red]")
-            console.print("[bold green]{05}[/bold green]: [bold cyan]Change Name[/bold cyan]              [bold red]100[/bold red]")
-            console.print("[bold green]{06}[/bold green]: [bold cyan]Change Name (Rainbow)[/bold cyan]    [bold red]100[/bold red]")
-            console.print("[bold green]{07}[/bold green]: [bold cyan]Number Plates[/bold cyan]            [bold red]2.000[/bold red]")
-            console.print("[bold green]{08}[/bold green]: [bold cyan]Account Delete[/bold cyan]           [bold red]FREE[/bold red]")
-            console.print("[bold green]{09}[/bold green]: [bold cyan]Account Register[/bold cyan]         [bold red]FREE[/bold red]")
-            console.print("[bold green]{10}[/bold green]: [bold cyan]Delete Friends[/bold cyan]           [bold red]5.00[/bold red]")
-            console.print("[bold green]{11}[/bold green]: [bold cyan]Unlock Paid Cars[/bold cyan]         [bold red]4.000[/bold red]")
-            console.print("[bold green]{12}[/bold green]: [bold cyan]Unlock all Cars[/bold cyan]          [bold red]3.000[/bold red]")
-            console.print("[bold green]{13}[/bold green]: [bold cyan]Unlock all Cars Siren[/bold cyan]    [bold red]2.000[/bold red]")
-            console.print("[bold green]{14}[/bold green]: [bold cyan]Unlock w16 Engine[/bold cyan]        [bold red]3.000[/bold red]")
-            console.print("[bold green]{15}[/bold green]: [bold cyan]Unlock All Horns[/bold cyan]         [bold red]3.000[/bold red]")
-            console.print("[bold green]{16}[/bold green]: [bold cyan]Unlock Disable Damage[/bold cyan]    [bold red]2.000[/bold red]")
-            console.print("[bold green]{17}[/bold green]: [bold cyan]Unlock Unlimited Fuel[/bold cyan]    [bold red]2.000[/bold red]")
-            console.print("[bold green]{18}[/bold green]: [bold cyan]Unlock House 3[/bold cyan]           [bold red]3.500[/bold red]")
-            console.print("[bold green]{19}[/bold green]: [bold cyan]Unlock Smoke[/bold cyan]             [bold red]2.000[/bold red]")
-            console.print("[bold green]{20}[/bold green]: [bold cyan]Change Race Wins[/bold cyan]         [bold red]1.000[/bold red]")
-            console.print("[bold green]{21}[/bold green]: [bold cyan]Change Race Loses[/bold cyan]        [bold red]1.000[/bold red]")
-            console.print("[bold green]{22}[/bold green]: [bold cyan]Clone Account[/bold cyan]            [bold red]5.000[/bold red]")
-            console.print("[bold green]{0} [/bold green]: [bold cyan]Exit[/bold cyan]")
+            console.print("[bold green]{01}[/bold green]: [bold yellow]Change Money[/bold cyan]             [bold red]1.000[/bold red]")
+            console.print("[bold green]{02}[/bold green]: [bold yellow]Change Coins[/bold yellow]             [bold red]3.500[/bold red]")
+            console.print("[bold green]{03}[/bold green]: [bold yellow]King Rank[/bold yellow]                [bold red]4.000[/bold red]")
+            console.print("[bold green]{04}[/bold green]: [bold yellow]Change ID[/bold yellow]                [bold red]3.500[/bold red]")
+            console.print("[bold green]{05}[/bold green]: [bold yellow]Change Name[/bold yellow]              [bold red]100[/bold red]")
+            console.print("[bold green]{06}[/bold green]: [bold yellow]Change Name (Rainbow)[/bold yellow]    [bold red]100[/bold red]")
+            console.print("[bold green]{07}[/bold green]: [bold yellow]Number Plates[/bold yellow]            [bold red]2.000[/bold red]")
+            console.print("[bold green]{08}[/bold green]: [bold yellow]Account Delete[/bold yellow]           [bold red]FREE[/bold red]")
+            console.print("[bold green]{09}[/bold green]: [bold yellow]Account Register[/bold yellow]         [bold red]FREE[/bold red]")
+            console.print("[bold green]{10}[/bold green]: [bold yellow]Delete Friends[/bold yellow]           [bold red]5.00[/bold red]")
+            console.print("[bold green]{11}[/bold green]: [bold yellow]Unlock Paid Cars[/bold yellow]         [bold red]4.000[/bold red]")
+            console.print("[bold green]{12}[/bold green]: [bold yellow]Unlock all Cars[/bold yellow]          [bold red]3.000[/bold red]")
+            console.print("[bold green]{13}[/bold green]: [bold yellow]Unlock all Cars Siren[/bold yellow]    [bold red]2.000[/bold red]")
+            console.print("[bold green]{14}[/bold green]: [bold yellow]Unlock w16 Engine[/bold yellow]        [bold red]3.000[/bold red]")
+            console.print("[bold green]{15}[/bold green]: [bold yellow]Unlock All Horns[/bold yellow]         [bold red]3.000[/bold red]")
+            console.print("[bold green]{16}[/bold green]: [bold yellow]Unlock Disable Damage[/bold yellow]    [bold red]2.000[/bold red]")
+            console.print("[bold green]{17}[/bold green]: [bold yellow]Unlock Unlimited Fuel[/bold yellow]    [bold red]2.000[/bold red]")
+            console.print("[bold green]{18}[/bold green]: [bold yellow]Unlock House 3[/bold yellow]           [bold red]3.500[/bold red]")
+            console.print("[bold green]{19}[/bold green]: [bold yellow]Unlock Smoke[/bold yellow]             [bold red]2.000[/bold red]")
+            console.print("[bold green]{20}[/bold green]: [bold yellow]Change Race Wins[/bold yellow]         [bold red]1.000[/bold red]")
+            console.print("[bold green]{21}[/bold green]: [bold yellow]Change Race Loses[/bold yellow]        [bold red]1.000[/bold red]")
+            console.print("[bold green]{22}[/bold green]: [bold yellow]Clone Account[/bold yellow]            [bold red]5.000[/bold red]")
+            console.print("[bold green]{0} [/bold green]: [bold red]Exit[/bold red]")
             
-            console.print("[bold][red]===============[/bold][/red][ 𝐂𝐏𝐌☆ ][bold][red]===============[/red][/bold]")
+            console.print("[bold][cyan]===============[/bold][/cyan][ 𝐂𝐏𝐌☆ ][bold][cyan]===============[/cyan][/bold]")
             
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
             
-            console.print("[bold][red]===============[/bold][/red][ 𝐂𝐏𝐌☆ ][bold][red]===============[/red][/bold]")
+            console.print("[bold][cyan]===============[/bold][/cyan][ 𝐂𝐏𝐌☆ ][bold][cyan]===============[/cyan][/bold]")
             
             if service == 0: # Exit
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
