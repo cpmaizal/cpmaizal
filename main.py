@@ -95,7 +95,6 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
-    def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
     console.print("[bold][red]==================================================[/red][/bold]")
