@@ -95,6 +95,14 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
+    def load_client_details():
+    response = requests.get("http://ip-api.com/json")
+    data = response.json()
+    console.print("[bold][red]==================================================[/red][/bold]")
+    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
+    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
+    console.print("[bold][red]===================[/red][ SERVICES ][red]===================[/red][/bold]")
+    
     console.print("[bold][cyan]===============[/bold][/cyan][ 𝐌𝐞𝐧‌𝐮 ][bold][cyan]===============[/cyan][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
