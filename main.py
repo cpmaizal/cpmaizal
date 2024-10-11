@@ -161,7 +161,7 @@ if __name__ == "__main__":
             load_player_data(cpm)
             load_key_data(cpm)
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
-            console.print(Colorate.Horizontal(Colors.rainbow, '{01}: Increase Money           1.000K'))
+            console.print("[bold green]{01}[/bold green]: [bold yellow]Change Money[/bold yellow]             [bold red]1.000[/bold red]")
             console.print("[bold green]{02}[/bold green]: [bold yellow]Change Coins[/bold yellow]             [bold red]3.500[/bold red]")
             console.print("[bold green]{03}[/bold green]: [bold yellow]King Rank[/bold yellow]                [bold red]4.000[/bold red]")
             console.print("[bold green]{04}[/bold green]: [bold yellow]Change ID[/bold yellow]                [bold red]3.500[/bold red]")
