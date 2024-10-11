@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from cpmtool import CPMtool
+from cpmaizal import CPMtool
 
 __CHANNEL_USERNAME__ = "CP_Aizal"
 __GROUP_USERNAME__   = "CP_Aizal_Chat"
